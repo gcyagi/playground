@@ -1,10 +1,22 @@
+
+.gridItem {
+  padding-top: 30px;
+  margin-bottom: 3px;
+  box-shadow: 0 0 0 3px #FFFFFF inset;
+}
+
+.defaultColor {
+  color: #F0F0F0;
+  background: #293874;
+}
+
 .myColorRed_0 {
   color : #F0F0F0;
-  background: #FF2A2C;
+  background: #B50100;
 }
 .myColorRed_1 {
   color : #F0F0F0;
-  background: #B50100;
+  background: #FF2A2C;
 }
 .myColorRed_2 {
   color : #0F0F0F;
@@ -63,7 +75,7 @@
 }
 .myColorYellow_3 {
   color : #0F0F0F;
-  background: #FFFF49;
+  background: #FFFF55;
 }
 
 
