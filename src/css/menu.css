@@ -1,0 +1,16 @@
+.dropDownMenu {
+  font-size: 15px;
+  color: #FFFFFF;
+  position: absolute;
+  text-align: right;
+  padding-right: 50px;
+}
+
+.jumpTo {
+  color: #FFFFFF;
+  background: #E17FFC;
+  text-align: left;
+  border-radius: 3px;
+  border: solid 1px;
+  padding: 5px;
+}

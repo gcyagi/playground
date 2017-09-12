@@ -1,0 +1,43 @@
+version: 2
+jobs :
+  build:
+    docker:
+      - image: gemcook/development
+    branches:
+      only:
+        - master
+    steps:
+      - checkout
+
+      - restore_cache:
+          key: playground-gcyagi-{{ .Branch }}-{{ checksum "yarn.lock" }}
+
+      - run:
+          name: 各種バージョン確認
+          command:
+            source /root/.bashrc &&
+            echo "node $(node -v)\"
+            echo "yarn $(yarn --version)\"
+            echo "ruby $(ruby --version)\"
+            echo "rails $(rails --version)\"
+            echo "python $(python3 --version)\"
+            echo "awscli $(aws --version)\"
+
+      - run:
+          name: 依存関係のインストール
+          command: yarn install
+
+      - run:
+          name: ビルドファイルを作成
+          command: yarn build
+
+      - save_cache:
+          key: playground-gcyagi-{{ .Branch }}-{{ checksum "yarn.lock" }}
+          paths:
+            - /root/node_modules
+            - /.cache/yarn/
+
+      - run:
+          name: S3へデプロイ
+          command: aws s3 sync build s3://playground-gcyagi.gemcook.com/ --delete
+
