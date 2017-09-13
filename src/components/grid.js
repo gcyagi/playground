@@ -19,9 +19,9 @@ class testGrid extends React.Component {
         <div className="pure-u-1-6 defaultColor gridItem">　1-6</div>
         <div className="pure-u-1-12 defaultColor gridItem">　1-12</div>
         <div className="horizon">
-          <div className="pure-u-1-3 horizonOne">　#08708A</div>
-          <div className="pure-u-1-3 horizonTwo">　#56B1BF</div>
-          <div className="pure-u-1-3 horizonThree">　#D0D3C5</div>
+          <div className="pure-u-1-3 horizonOne gridItem">　#08708A</div>
+          <div className="pure-u-1-3 horizonTwo gridItem">　#56B1BF</div>
+          <div className="pure-u-1-3 horizonThree gridItem">　#D0D3C5</div>
         </div>
         <div className="colorPalleteRedTone">
           <div className="pure-u-1-4 myColorRed_0 gridItem">　#B50100</div>
