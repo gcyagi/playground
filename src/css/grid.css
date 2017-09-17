@@ -1,8 +1,11 @@
 
 .gridItem {
   padding-top: 30px;
-  margin-bottom: 3px;
   box-shadow: 0 0 0 3px #FFFFFF inset;
+}
+
+.sampleImage {
+  float: left;
 }
 
 .defaultColor {
@@ -10,21 +13,29 @@
   background: #293874;
 }
 
+.colorPalette {
+  text-align: center;
+}
+
+.paletteItem {
+  display: block;
+}
+
 .myColorRed_0 {
   color : #F0F0F0;
-  background: #B50100;
+  background: #BB2F1E;
 }
 .myColorRed_1 {
   color : #F0F0F0;
-  background: #FF2A2C;
+  background: #E3CB5E;
 }
 .myColorRed_2 {
   color : #0F0F0F;
-  background: #EC9A98;
+  background: #C8C781;
 }
 .myColorRed_3 {
   color : #0F0F0F;
-  background: #F8EEF1;
+  background: #562B15;
 }
 
 .myColorBlue_0 {

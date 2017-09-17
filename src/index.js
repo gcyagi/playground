@@ -24,6 +24,8 @@ class Training extends React.Component {
                 <Route path='/slanting' component={Slanting}/>
                 <Route path='/grid' component={Grid}/>
               </div>
+              <div className="map">
+              </div>
             </div>
         </div>
       </BrowserRouter>

@@ -20,8 +20,8 @@ class header extends React.Component {
             </div>
           </ul>
         </div>
-        <LogoImage />
-        <Title />
+        <LogoImage className="pure-u-lg-1-3 pure-u-md-1-5" />
+        <Title className="pure-u-lg-1-3 pure-u-md-1-5" />
       </div>
     )
   }
