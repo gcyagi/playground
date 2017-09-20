@@ -1,9 +1,12 @@
 {
-  "main.css": "static/css/main.759ea77b.css",
-  "main.css.map": "static/css/main.759ea77b.css.map",
-  "main.js": "static/js/main.9862cd7d.js",
-  "main.js.map": "static/js/main.9862cd7d.js.map",
+  "main.css": "static/css/main.40a933ca.css",
+  "main.css.map": "static/css/main.40a933ca.css.map",
+  "main.js": "static/js/main.a3b926b9.js",
+  "main.js.map": "static/js/main.a3b926b9.js.map",
   "static/media/gcyagiGemO.png": "static/media/gcyagiGemO.5e2c5aca.png",
   "static/media/gopher_wfmu.png": "static/media/gopher_wfmu.22dee51d.png",
-  "static/media/momiji.JPG": "static/media/momiji.c2c25a3d.JPG"
+  "static/media/momiji.JPG": "static/media/momiji.c2c25a3d.JPG",
+  "static/media/radybug.JPG": "static/media/radybug.18ad739c.JPG",
+  "static/media/snow.JPG": "static/media/snow.e0779beb.JPG",
+  "static/media/sunflower.JPG": "static/media/sunflower.fc388033.JPG"
 }

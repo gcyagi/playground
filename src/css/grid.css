@@ -1,11 +1,11 @@
 
 .gridItem {
-  padding-top: 30px;
+  padding-top: 20px;
   box-shadow: 0 0 0 3px #FFFFFF inset;
 }
 
 .sampleImage {
-  float: left;
+  padding-top: 3px;
 }
 
 .defaultColor {
@@ -18,6 +18,7 @@
 }
 
 .paletteItem {
+  padding-top: 35px;
   display: block;
 }
 
@@ -40,32 +41,32 @@
 
 .myColorBlue_0 {
   color : #F0F0F0;
-  background: #003066;
+  background: #28437B;
 }
 .myColorBlue_1 {
   color : #F0F0F0;
-  background: #024096;
+  background: #4578D6;
 }
 .myColorBlue_2 {
   color : #0F0F0F;
-  background: #06C2F4;
+  background: #6B8CCE;
 }
 .myColorBlue_3 {
   color : #0F0F0F;
-  background: #97EAF4;
+  background: #92A8DB;
 }
 
 .myColorGreen_0 {
   color : #F0F0F0;
-  background: #404616;
+  background: #385918;
 }
 .myColorGreen_1 {
   color : #F0F0F0;
-  background: #668D3C;
+  background: #9DAD53;
 }
 .myColorGreen_2 {
   color : #0F0F0F;
-  background: #B1DDA1;
+  background: #A1B258;
 }
 .myColorGreen_3 {
   color : #0F0F0F;
@@ -74,31 +75,31 @@
 
 .myColorYellow_0 {
   color : #F0F0F0;
-  background: #FFAC00;
+  background: #AA6724;
 }
 .myColorYellow_1 {
   color : #F0F0F0;
-  background: #FFD319;
+  background: #F2C242;
 }
 .myColorYellow_2 {
   color : #0F0F0F;
-  background: #FFFF00;
+  background: #F6F6F6;
 }
 .myColorYellow_3 {
   color : #0F0F0F;
-  background: #FFFF55;
+  background: #8FA845;
 }
 
 
-.horizonOne {
+.horizon_1 {
   color: #F0F0F0;
   background: #08708A;
 }
-.horizonTwo {
+.horizon_2 {
   color: #F0F0F0;
   background: #56B1BF
 }
-.horizonThree {
+.horizon_3 {
   color: #F0F0F0;
   background: #D0D3C5
 }
