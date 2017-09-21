@@ -1,10 +1,14 @@
 import React from 'react';
+
+import pure from 'purecss';
 import './../css/grid.css';
+
 
 class testGrid extends React.Component {
   render() {
     return (
       <div className="testGrid">
+
         <div className="pure-u-1-24 defaultColor gridItem">1-24</div>
         <div className="pure-u-1-24 defaultColor gridItem">1-24</div>
         <div className="pure-u-1-24 defaultColor gridItem">1-24</div>
@@ -18,13 +22,15 @@ class testGrid extends React.Component {
         <div className="pure-u-1-6 defaultColor gridItem">1-6</div>
         <div className="pure-u-1-6 defaultColor gridItem">1-6</div>
         <div className="pure-u-1-12 defaultColor gridItem">1-12</div>
+
         <div className="horizon">
           <div className="pure-u-1-3 horizon_1 gridItem">#08708A</div>
           <div className="pure-u-1-3 horizon_2 gridItem">#56B1BF</div>
           <div className="pure-u-1-3 horizon_3 gridItem">#D0D3C5</div>
         </div>
+
         <div className="pure-g">
-          <div className="colorPalette greenTone pure-u-1-2">
+          <div className="colorPalette greenTone pure-u-md-1-2 pure-u-lg-1-4">
             <img className="sampleImage pure-u-2-3" src={require("../img/radybug.JPG")} alt="spring" />
             <div className="colors pure-u-1-3">
               <div className="myColorGreen_0 gridItem paletteItem">#385918</div>
@@ -34,7 +40,7 @@ class testGrid extends React.Component {
             </div>
           </div>
 
-          <div className="colorPalette yellowTone pure-u-1-2">
+          <div className="colorPalette yellowTone pure-u-md-1-2 pure-u-lg-1-4">
             <img className="sampleImage pure-u-2-3" src={require("../img/sunflower.JPG")} alt="summer" />
             <div className="colors pure-u-1-3">
               <div className="myColorYellow_0 gridItem paletteItem">#AA6724</div>
@@ -44,7 +50,7 @@ class testGrid extends React.Component {
             </div>
           </div>
 
-          <div className="colorPalette redTone pure-u-1-2">
+          <div className="colorPalette redTone pure-u-md-1-2 pure-u-lg-1-4">
             <img className="sampleImage pure-u-2-3" src={require("../img/momiji.JPG")} alt="autumn" />
             <div className="colors pure-u-1-3">
               <div className="myColorRed_0 gridItem paletteItem">#BB2F1E</div>
@@ -54,7 +60,7 @@ class testGrid extends React.Component {
             </div>
           </div>
 
-          <div className="colorPalette blueTone pure-u-1-2">
+          <div className="colorPalette blueTone pure-u-md-1-2 pure-u-lg-1-4">
             <img className="sampleImage pure-u-2-3" src={require("../img/snow.JPG")} alt="winter" />
             <div className="colors pure-u-1-3">
               <div className="myColorBlue_0 gridItem paletteItem">#28437B</div>
@@ -65,6 +71,7 @@ class testGrid extends React.Component {
           </div>
 
         </div>
+
       </div>
     )
   }
