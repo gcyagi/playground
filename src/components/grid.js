@@ -1,6 +1,6 @@
 import React from 'react';
 
-import pure from 'purecss';
+import 'purecss';
 import './../css/grid.css';
 
 
