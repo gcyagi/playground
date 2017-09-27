@@ -8,25 +8,25 @@ class testGrid extends React.Component {
   render() {
     return (
       <div className="testGrid">
-
+      <div className="pure-g">
         <div className="pure-u-1-24 defaultColor gridItem">1-24</div>
         <div className="pure-u-1-24 defaultColor gridItem">1-24</div>
         <div className="pure-u-1-24 defaultColor gridItem">1-24</div>
         <div className="pure-u-1-24 defaultColor gridItem">1-24</div>
         <div className="pure-u-1-24 defaultColor gridItem">1-24</div>
         <div className="pure-u-1-24 defaultColor gridItem">1-24</div>
+        <div className="pure-u-1-12 defaultColor gridItem">1-12</div>
         <div className="pure-u-1-12 defaultColor gridItem">1-12</div>
         <div className="pure-u-1-12 defaultColor gridItem">1-12</div>
         <div className="pure-u-1-12 defaultColor gridItem">1-12</div>
         <div className="pure-u-1-12 defaultColor gridItem">1-12</div>
         <div className="pure-u-1-6 defaultColor gridItem">1-6</div>
         <div className="pure-u-1-6 defaultColor gridItem">1-6</div>
-        <div className="pure-u-1-12 defaultColor gridItem">1-12</div>
-
+      </div>
         <div className="horizon">
-          <div className="pure-u-1-3 horizon_1 gridItem">#08708A</div>
-          <div className="pure-u-1-3 horizon_2 gridItem">#56B1BF</div>
-          <div className="pure-u-1-3 horizon_3 gridItem">#D0D3C5</div>
+          <div className="pure-u-1-3 horizon_1 gridItem">8−24 #08708A</div>
+          <div className="pure-u-1-3 horizon_2 gridItem">1−3 #56B1BF</div>
+          <div className="pure-u-1-3 horizon_3 gridItem">1−3 #D0D3C5</div>
         </div>
 
         <div className="pure-g">

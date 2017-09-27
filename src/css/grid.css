@@ -2,6 +2,7 @@
 .gridItem {
   padding-top: 20px;
   box-shadow: 0 0 0 3px #FFFFFF inset;
+  text-align: center;
 }
 
 .sampleImage {
